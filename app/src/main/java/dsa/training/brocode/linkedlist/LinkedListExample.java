@@ -32,7 +32,7 @@ Elements are linked using pointers
 public class LinkedListExample {
 
     public static void firstExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.push("A");
         linkedList.push("B");
         linkedList.push("C");
@@ -49,7 +49,7 @@ public class LinkedListExample {
     }
 
     public static void popExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.push("A");
         linkedList.push("B");
         linkedList.push("C");
@@ -62,7 +62,7 @@ public class LinkedListExample {
     }
 
     public static void offerExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -73,7 +73,7 @@ public class LinkedListExample {
     }
 
     public static void pollExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -89,7 +89,7 @@ public class LinkedListExample {
     }
 
     public static void insertExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -101,7 +101,7 @@ public class LinkedListExample {
     }
 
     public static void insertIndexExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -113,7 +113,7 @@ public class LinkedListExample {
     }
 
     public static void removeExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -129,7 +129,7 @@ public class LinkedListExample {
     }
 
     public static void getElementWithPeekExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -146,7 +146,7 @@ public class LinkedListExample {
     }
 
     public static void addFirstExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -164,7 +164,7 @@ public class LinkedListExample {
     }
 
     public static void addLastExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -182,7 +182,7 @@ public class LinkedListExample {
     }
 
     public static void removeFirstExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
@@ -204,7 +204,7 @@ public class LinkedListExample {
     }
 
     public static void removeLastExample() {
-        LinkedList linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.offer("A");
         linkedList.offer("B");
         linkedList.offer("C");
