@@ -1,7 +1,7 @@
 package dsa.training.brocode.sorts;
 
 /*
- * Bubble sort = pairs of ajdacent elements are compared, and the elements swapped if they are not in order.
+ * Bubble sort = pairs of adjacent elements are compared, and the elements swapped if they are not in order.
  * @note complexity: O(n^2) small data set = okay-ish, large data set = bad
  * @author Erick Borda
  */
