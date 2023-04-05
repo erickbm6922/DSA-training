@@ -2,30 +2,29 @@ package dsa.training.brocode.searchs;
 
 import org.junit.jupiter.api.Test;
 
-public class DepthFirstSearchExampleTest {
+public class BreadthFirstSearchExampleTest {
     @Test
     void testANodeExample() {
-        DepthFirstSearchExample.nodesExample(0);
+        BreadthFirstSearchExample.nodesExample(0);
     }
 
     @Test
     void testBNodeExample() {
-        DepthFirstSearchExample.nodesExample(1);
+        BreadthFirstSearchExample.nodesExample(1);
     }
 
     @Test
     void testCNodeExample() {
-        DepthFirstSearchExample.nodesExample(2);
+        BreadthFirstSearchExample.nodesExample(2);
     }
 
     @Test
     void testDNodeExample() {
-        DepthFirstSearchExample.nodesExample(3);
+        BreadthFirstSearchExample.nodesExample(3);
     }
 
     @Test
     void testENodeExample() {
-        DepthFirstSearchExample.nodesExample(4);
+        BreadthFirstSearchExample.nodesExample(4);
     }
-
 }

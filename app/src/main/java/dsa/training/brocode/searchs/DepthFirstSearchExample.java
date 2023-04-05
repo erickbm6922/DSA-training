@@ -9,7 +9,7 @@ import dsa.training.brocode.graphs.Node;
  */
 public class DepthFirstSearchExample {
 
-    public static void aNodeExample(int nodeIndex) {
+    public static void nodesExample(int nodeIndex) {
         Graph graphAL = new Graph(5);
         graphAL.addNode(new Node('A'));
         graphAL.addNode(new Node('B'));
